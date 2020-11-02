@@ -10,7 +10,7 @@ Make sure that `docker` and `docker-compose` is installed on ur machine
 docker-compose up
 ```
 
-## Just in terminal
+## From terminal
 
 ### Api
 
@@ -20,6 +20,22 @@ For correct work (creating thumbnail and getting additional meta from video) ins
 cd api
 npm install
 npm run start
+```
+
+### Api Test
+
+Unit tests
+
+```
+cd api
+npm run test
+```
+
+e2e test
+
+```
+cd api
+npm run test:e2e
 ```
 
 ### Frontent
